@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hdk3fBhKH8dIyq32ZvWxs+jc7sNPtagkTjlT1qJno8rryD1EIeSSjEwyOUjQbRzY1rtkmOaGMS++A28efB1VaQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Infrastructure\\SiparisYonetimAPI.Persistence\\SiparisYonetimAPI.Persistence.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Cycle detected. \r\n  SiparisYonetimAPI.Persistence -> SiparisYonetimAPI.Application -> SiparisYonetimAPI.Infrastructure -> SiparisYonetimAPI.Application.",
+      "libraryId": "SiparisYonetimAPI.Application",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
