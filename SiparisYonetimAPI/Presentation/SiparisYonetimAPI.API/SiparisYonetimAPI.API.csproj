@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\SiparisYonetimAPI.Application\SiparisYonetimAPI.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\SiparisYonetimAPI.Persistence\SiparisYonetimAPI.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

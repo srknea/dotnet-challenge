@@ -1,0 +1,17 @@
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\bin\Debug\net6.0\SiparisYonetimAPI.Persistence.deps.json
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\bin\Debug\net6.0\SiparisYonetimAPI.Persistence.dll
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\bin\Debug\net6.0\SiparisYonetimAPI.Persistence.pdb
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\bin\Debug\net6.0\SiparisYonetimAPI.Application.dll
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\bin\Debug\net6.0\SiparisYonetimAPI.Domain.dll
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\bin\Debug\net6.0\SiparisYonetimAPI.Application.pdb
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\bin\Debug\net6.0\SiparisYonetimAPI.Domain.pdb
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\obj\Debug\net6.0\SiparisYonetimAPI.Persistence.csproj.AssemblyReference.cache
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\obj\Debug\net6.0\SiparisYonetimAPI.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\obj\Debug\net6.0\SiparisYonetimAPI.Persistence.AssemblyInfoInputs.cache
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\obj\Debug\net6.0\SiparisYonetimAPI.Persistence.AssemblyInfo.cs
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\obj\Debug\net6.0\SiparisYonetimAPI.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\obj\Debug\net6.0\SiparisYonetimAPI.Persistence.csproj.CopyComplete
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\obj\Debug\net6.0\SiparisYonetimAPI.Persistence.dll
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\obj\Debug\net6.0\refint\SiparisYonetimAPI.Persistence.dll
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\obj\Debug\net6.0\SiparisYonetimAPI.Persistence.pdb
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\obj\Debug\net6.0\ref\SiparisYonetimAPI.Persistence.dll

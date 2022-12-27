@@ -1,18 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Hdk3fBhKH8dIyq32ZvWxs+jc7sNPtagkTjlT1qJno8rryD1EIeSSjEwyOUjQbRzY1rtkmOaGMS++A28efB1VaQ==",
-  "success": false,
+  "dgSpecHash": "d8vJpoguOdgEu/t3sKBnRV1ooQKWAS8QlEeep/mIwM4sxW6ooV1FzP0ZYhFeBzGg0z5OR701c8PVoJSJUtVpDg==",
+  "success": true,
   "projectFilePath": "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Infrastructure\\SiparisYonetimAPI.Persistence\\SiparisYonetimAPI.Persistence.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  SiparisYonetimAPI.Persistence -> SiparisYonetimAPI.Application -> SiparisYonetimAPI.Infrastructure -> SiparisYonetimAPI.Application.",
-      "libraryId": "SiparisYonetimAPI.Application",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "expectedPackageFiles": [
+    "C:\\Users\\Serkan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
 }

@@ -1,0 +1,15 @@
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Application\bin\Debug\net6.0\SiparisYonetimAPI.Application.deps.json
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Application\bin\Debug\net6.0\SiparisYonetimAPI.Application.dll
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Application\bin\Debug\net6.0\SiparisYonetimAPI.Application.pdb
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Application\bin\Debug\net6.0\SiparisYonetimAPI.Domain.dll
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Application\bin\Debug\net6.0\SiparisYonetimAPI.Domain.pdb
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Application\obj\Debug\net6.0\SiparisYonetimAPI.Application.csproj.AssemblyReference.cache
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Application\obj\Debug\net6.0\SiparisYonetimAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Application\obj\Debug\net6.0\SiparisYonetimAPI.Application.AssemblyInfoInputs.cache
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Application\obj\Debug\net6.0\SiparisYonetimAPI.Application.AssemblyInfo.cs
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Application\obj\Debug\net6.0\SiparisYonetimAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Application\obj\Debug\net6.0\SiparisYonetimAPI.Application.csproj.CopyComplete
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Application\obj\Debug\net6.0\SiparisYonetimAPI.Application.dll
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Application\obj\Debug\net6.0\refint\SiparisYonetimAPI.Application.dll
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Application\obj\Debug\net6.0\SiparisYonetimAPI.Application.pdb
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Application\obj\Debug\net6.0\ref\SiparisYonetimAPI.Application.dll

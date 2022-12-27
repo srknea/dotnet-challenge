@@ -13,6 +13,22 @@
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.OpenApi/1.2.3": {
         "type": "package",
         "compile": {
@@ -93,7 +109,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "SiparisYonetimAPI.Infrastructure": "1.0.0"
+          "SiparisYonetimAPI.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/SiparisYonetimAPI.Application.dll": {}
@@ -102,17 +118,28 @@
           "bin/placeholder/SiparisYonetimAPI.Application.dll": {}
         }
       },
-      "SiparisYonetimAPI.Infrastructure/1.0.0": {
+      "SiparisYonetimAPI.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SiparisYonetimAPI.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SiparisYonetimAPI.Domain.dll": {}
+        }
+      },
+      "SiparisYonetimAPI.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
           "SiparisYonetimAPI.Application": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SiparisYonetimAPI.Infrastructure.dll": {}
+          "bin/placeholder/SiparisYonetimAPI.Persistence.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SiparisYonetimAPI.Infrastructure.dll": {}
+          "bin/placeholder/SiparisYonetimAPI.Persistence.dll": {}
         }
       }
     }
@@ -143,6 +170,35 @@
         "tools/netcoreapp2.1/GetDocument.Insider.deps.json",
         "tools/netcoreapp2.1/GetDocument.Insider.dll",
         "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "sha512": "h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.OpenApi/1.2.3": {
@@ -248,15 +304,21 @@
       "path": "../../Core/SiparisYonetimAPI.Application/SiparisYonetimAPI.Application.csproj",
       "msbuildProject": "../../Core/SiparisYonetimAPI.Application/SiparisYonetimAPI.Application.csproj"
     },
-    "SiparisYonetimAPI.Infrastructure/1.0.0": {
+    "SiparisYonetimAPI.Domain/1.0.0": {
       "type": "project",
       "path": "../../Core/SiparisYonetimAPI.Domain/SiparisYonetimAPI.Domain.csproj",
       "msbuildProject": "../../Core/SiparisYonetimAPI.Domain/SiparisYonetimAPI.Domain.csproj"
+    },
+    "SiparisYonetimAPI.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../../Infrastructure/SiparisYonetimAPI.Persistence/SiparisYonetimAPI.Persistence.csproj",
+      "msbuildProject": "../../Infrastructure/SiparisYonetimAPI.Persistence/SiparisYonetimAPI.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "SiparisYonetimAPI.Application >= 1.0.0",
+      "SiparisYonetimAPI.Persistence >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -289,6 +351,9 @@
           "projectReferences": {
             "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Core\\SiparisYonetimAPI.Application\\SiparisYonetimAPI.Application.csproj": {
               "projectPath": "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Core\\SiparisYonetimAPI.Application\\SiparisYonetimAPI.Application.csproj"
+            },
+            "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Infrastructure\\SiparisYonetimAPI.Persistence\\SiparisYonetimAPI.Persistence.csproj": {
+              "projectPath": "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Infrastructure\\SiparisYonetimAPI.Persistence\\SiparisYonetimAPI.Persistence.csproj"
             }
           }
         }
@@ -330,16 +395,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  SiparisYonetimAPI.API -> SiparisYonetimAPI.Application -> SiparisYonetimAPI.Infrastructure -> SiparisYonetimAPI.Application.",
-      "libraryId": "SiparisYonetimAPI.Application",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

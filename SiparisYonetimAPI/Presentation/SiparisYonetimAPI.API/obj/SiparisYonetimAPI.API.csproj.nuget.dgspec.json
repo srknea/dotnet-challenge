@@ -67,10 +67,65 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Core\\SiparisYonetimAPI.Domain\\SiparisYonetimAPI.Domain.csproj",
-        "projectName": "SiparisYonetimAPI.Infrastructure",
+        "projectName": "SiparisYonetimAPI.Domain",
         "projectPath": "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Core\\SiparisYonetimAPI.Domain\\SiparisYonetimAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\Serkan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Infrastructure\\SiparisYonetimAPI.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Core\\SiparisYonetimAPI.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Serkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Infrastructure\\SiparisYonetimAPI.Persistence\\SiparisYonetimAPI.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Infrastructure\\SiparisYonetimAPI.Persistence\\SiparisYonetimAPI.Persistence.csproj",
+        "projectName": "SiparisYonetimAPI.Persistence",
+        "projectPath": "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Infrastructure\\SiparisYonetimAPI.Persistence\\SiparisYonetimAPI.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Serkan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Infrastructure\\SiparisYonetimAPI.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Serkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -102,6 +157,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -148,6 +209,9 @@
             "projectReferences": {
               "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Core\\SiparisYonetimAPI.Application\\SiparisYonetimAPI.Application.csproj": {
                 "projectPath": "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Core\\SiparisYonetimAPI.Application\\SiparisYonetimAPI.Application.csproj"
+              },
+              "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Infrastructure\\SiparisYonetimAPI.Persistence\\SiparisYonetimAPI.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Infrastructure\\SiparisYonetimAPI.Persistence\\SiparisYonetimAPI.Persistence.csproj"
               }
             }
           }

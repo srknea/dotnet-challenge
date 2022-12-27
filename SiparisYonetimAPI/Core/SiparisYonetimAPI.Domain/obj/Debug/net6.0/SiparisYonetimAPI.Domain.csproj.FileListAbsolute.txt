@@ -1,0 +1,12 @@
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Domain\bin\Debug\net6.0\SiparisYonetimAPI.Domain.deps.json
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Domain\bin\Debug\net6.0\SiparisYonetimAPI.Domain.dll
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Domain\bin\Debug\net6.0\SiparisYonetimAPI.Domain.pdb
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Domain\obj\Debug\net6.0\SiparisYonetimAPI.Domain.csproj.AssemblyReference.cache
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Domain\obj\Debug\net6.0\SiparisYonetimAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Domain\obj\Debug\net6.0\SiparisYonetimAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Domain\obj\Debug\net6.0\SiparisYonetimAPI.Domain.AssemblyInfo.cs
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Domain\obj\Debug\net6.0\SiparisYonetimAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Domain\obj\Debug\net6.0\SiparisYonetimAPI.Domain.dll
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Domain\obj\Debug\net6.0\refint\SiparisYonetimAPI.Domain.dll
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Domain\obj\Debug\net6.0\SiparisYonetimAPI.Domain.pdb
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Core\SiparisYonetimAPI.Domain\obj\Debug\net6.0\ref\SiparisYonetimAPI.Domain.dll

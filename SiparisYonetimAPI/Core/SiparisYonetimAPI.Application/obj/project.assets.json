@@ -2,23 +2,20 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "SiparisYonetimAPI.Infrastructure/1.0.0": {
+      "SiparisYonetimAPI.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "SiparisYonetimAPI.Application": "1.0.0"
-        },
         "compile": {
-          "bin/placeholder/SiparisYonetimAPI.Infrastructure.dll": {}
+          "bin/placeholder/SiparisYonetimAPI.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SiparisYonetimAPI.Infrastructure.dll": {}
+          "bin/placeholder/SiparisYonetimAPI.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "SiparisYonetimAPI.Infrastructure/1.0.0": {
+    "SiparisYonetimAPI.Domain/1.0.0": {
       "type": "project",
       "path": "../SiparisYonetimAPI.Domain/SiparisYonetimAPI.Domain.csproj",
       "msbuildProject": "../SiparisYonetimAPI.Domain/SiparisYonetimAPI.Domain.csproj"
@@ -26,7 +23,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "SiparisYonetimAPI.Infrastructure >= 1.0.0"
+      "SiparisYonetimAPI.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -90,16 +87,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  SiparisYonetimAPI.Application -> SiparisYonetimAPI.Infrastructure -> SiparisYonetimAPI.Application.",
-      "libraryId": "SiparisYonetimAPI.Application",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }
