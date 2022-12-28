@@ -15,3 +15,5 @@ C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisY
 C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\obj\Debug\net6.0\refint\SiparisYonetimAPI.Persistence.dll
 C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\obj\Debug\net6.0\SiparisYonetimAPI.Persistence.pdb
 C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\obj\Debug\net6.0\ref\SiparisYonetimAPI.Persistence.dll
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\bin\Debug\net6.0\SiparisYonetimAPI.Persistence.runtimeconfig.json
+C:\Users\Serkan\Desktop\SiparisYonetim\SiparisYonetimAPI\Infrastructure\SiparisYonetimAPI.Persistence\obj\Debug\net6.0\SiparisYonetimAPI.Persistence.genruntimeconfig.cache

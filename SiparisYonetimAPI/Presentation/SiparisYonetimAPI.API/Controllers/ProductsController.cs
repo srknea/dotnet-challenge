@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SiparisYonetimAPI.Application.Abstractions;
+//using SiparisYonetimAPI.Application.Abstractions;
 
 namespace SiparisYonetimAPI.API.Controllers
 {
+    /*
     [Route("api/[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase
@@ -20,4 +21,5 @@ namespace SiparisYonetimAPI.API.Controllers
             return Ok(products);
         }
     }
+    */
 }

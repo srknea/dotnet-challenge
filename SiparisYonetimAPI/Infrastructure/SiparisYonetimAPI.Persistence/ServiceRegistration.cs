@@ -1,6 +1,8 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using SiparisYonetimAPI.Application.Abstractions;
-using SiparisYonetimAPI.Persistence.Concretes;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+//using SiparisYonetimAPI.Application.Abstractions;
+//using SiparisYonetimAPI.Persistence.Concretes;
+using SiparisYonetimAPI.Persistence.Contexts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,8 +15,8 @@ namespace SiparisYonetimAPI.Persistence
     {
         public static void AddPersistenceServices(this IServiceCollection services)
         {
-            services.AddSingleton<IProductService, ProductService>();
-
+            //services.AddSingleton<IProductService, ProductService>();
+            services.AddDbContext<SiparisYonetimAPIDbContext>(options => options.UseSqlServer(Configuration.ConnectionString));
         }
     }
 }
