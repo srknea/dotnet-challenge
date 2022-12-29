@@ -21,20 +21,7 @@ namespace SiparisYonetimAPI.Persistence.Contexts
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            /*
-            modelBuilder.Entity<Order>()
-                .HasOne(c => c.Firm)
-                .WithMany(d => d.Orders)
-                .HasForeignKey(c => c.FirmId)
-                
-
-
-
-            modelBuilder.Entity<Order>()
-                .HasOne(c => c.Product)
-                .WithMany(d => d.Orders)
-                .HasForeignKey(c => c.ProductId);
-            */
+        
             foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
             {
                 relationship.DeleteBehavior = DeleteBehavior.Restrict;

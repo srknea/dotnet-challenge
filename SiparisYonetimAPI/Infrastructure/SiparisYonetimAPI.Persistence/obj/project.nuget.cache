@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Z7Zndp68NNpiuuP97frEAjb6xvQp9+bFsepUx8/kU4iCGpblBMN2suMQyycWSddIM26Rl0zTIWdODDva4kaHbA==",
+  "dgSpecHash": "Q5UUSYEjT8NTeJadZJBuZdOo1xcUR9BCotms26O37C2ntlmGyyV5uR7EPbLXNnsI0ZxWyWzwtx1FZVDkk6VnDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Serkan\\Desktop\\SiparisYonetim\\SiparisYonetimAPI\\Infrastructure\\SiparisYonetimAPI.Persistence\\SiparisYonetimAPI.Persistence.csproj",
   "expectedPackageFiles": [
