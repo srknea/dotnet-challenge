@@ -60,4 +60,4 @@ Id için BaseEntity classı kullanılmıştır.
 
 ---
 
-[dotnet-challange / Notes](https://www.notion.so/dotnet-challange-Notes-cf15e00dfc634a5ba15d27a944614a9f)
+[dotnet-challange / Notes](https://tasty-freckle-173.notion.site/dotnet-challange-Notes-cf15e00dfc634a5ba15d27a944614a9f)
