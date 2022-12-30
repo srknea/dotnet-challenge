@@ -17,7 +17,7 @@ Id için BaseEntity classı kullanılmıştır.
 
 1. Onion Architecture altyapısı projeye inşaa edilmiştir.
 2. Swagger UI ile Onion Architecture altyapısı test edilmiştir.
-3. Entity Framework Code First yaklaşımı ile MSQL ile veritabanı oluşturulmuştur.
+3. Entity Framework Code First yaklaşımı ile MSQL veritabanı oluşturulmuştur.
 4. Generic Repository Design Pattern projeye eklenmiştir.
 5. Firma ekleme, Firma güncelleme, Firma listeleme, Ürün ekleme ve Sipariş oluşturma gibi servislerin yapımı sürmektedir, henüz tamamlanmamıştır.
 
@@ -57,3 +57,7 @@ Id için BaseEntity classı kullanılmıştır.
 ### Repository Design Pattern
 
 ![Untitled](img/Untitled%207.png)
+
+---
+
+[dotnet-challange / Notes](https://www.notion.so/dotnet-challange-Notes-cf15e00dfc634a5ba15d27a944614a9f)
